@@ -1,0 +1,83 @@
+[
+    {
+        "label": "Dashboard",
+        "icon": "fas fa-home",
+        "link": "/",
+        "subRoute": "",
+        "child" : []
+    },
+    {
+        "label": "Topup",
+        "icon": "fas fa-wallet",
+        "link": "/topup",
+        "subRoute": "/topup/",
+        "child" : []
+    },
+    {
+        "label": "Member",
+        "icon": "fas fa-users",
+        "link": "/member",
+        "subRoute": "/member/",
+        "child" : []
+    },
+    {
+        "label": "Produk",
+        "icon": "fas fa-database",
+        "link": "/produk",
+        "subRoute": "",
+        "child" : [
+            {
+                "label": "List Produk",
+                "icon": "fas fa-list",
+                "link": "/produk/list-produk",
+                "subRoute": "/produk/list-produk/"
+            },
+            {
+                "label": "Produk Operator",
+                "icon": "fas fa-box",
+                "link": "/produk/produk-operator",
+                "subRoute": ""
+            },
+            {
+                "label": "Produk Kategori",
+                "icon": "fas fa-boxes",
+                "link": "/produk/kategori",
+                "subRoute": ""
+            },
+            {
+                "label": "Produk Jenis",
+                "icon": "fas fa-code-branch",
+                "link": "/produk/produk-jenis",
+                "subRoute": ""
+            }
+        ]
+    },
+    {
+        "label": "H2H",
+        "icon": "fas fa-server",
+        "link": "/h2h",
+        "subRoute": "",
+        "child" : []
+    },
+    {
+        "label": "Transaksi",
+        "icon": "fas fa-chart-line",
+        "link": "/transaksi",
+        "subRoute": "",
+        "child" : []
+    },
+    {
+        "label": "Admin",
+        "icon": "fas fa-user",
+        "link": "/admin",
+        "subRoute": "",
+        "child" : []
+    },
+    {
+        "label": "Pengaturan",
+        "icon": "fas fa-cog",
+        "link": "/pengaturan",
+        "subRoute": "",
+        "child" : []
+    }
+]
